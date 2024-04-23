@@ -1,0 +1,78 @@
+.card {
+  width: 920px;
+  height: 500px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.col-sedan,
+.col-suv,
+.col-luxury {
+  width: 307px;
+  height: 100%;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.col-sedan {
+  background: var(--bright-orange);
+  border-radius: 8px 0 0 8px;
+}
+
+.col-suv {
+  background: var(--dark-cyan);
+}
+
+.col-luxury {
+  background: var(--very-dark-cyan);
+  border-radius: 0px 8px 8px 0;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--light-gray);
+  text-transform: uppercase;
+  margin: 35px 0 25px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--transparent-white-para);
+  margin-bottom: 83px;
+}
+
+.cta {
+  width: 146px;
+  height: 48px;
+  background: var(--light-gray);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.col-sedan > .cta {
+  color: var(--bright-orange);
+}
+
+.col-suv > .cta {
+  color: var(--dark-cyan);
+}
+
+.col-luxury > .cta {
+  color: var(--very-dark-cyan);
+}
+
+.cta:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
