@@ -1,6 +1,7 @@
 .card {
   width: 920px;
   height: 500px;
+  margin: 171px auto 129px;
   display: flex;
   border-radius: 8px;
 }
@@ -93,6 +94,7 @@ p {
   .card {
     width: 425px;
     height: 100%;
+    margin: 0 auto;
     flex-direction: column;
   }
 
